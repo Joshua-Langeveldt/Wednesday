@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
     <title>Wednesday</title>
 </head>
-<body>
+<body id="allay">
     
     <!-- Headings -->
 <main>
@@ -20,9 +21,12 @@
     <h3>JavaScript</h3>
     <p>This language deals with the behaviour of the website.</p>
 </main>
+<br>
+
 
 <!-- Table -->
-<table border="1">
+
+<table>
     <tr>
       <th>Avatar</th>
       <th>First Name</th>
@@ -34,7 +38,7 @@
 
     </tr>
     <tr>
-      <td><img src="/avatars/iron-man.jpg" alt="Image" height="80px" width="80px"></td>
+      <td><img src="/avatars/iron-man.jpg" alt="Image"></td>
       <td>Leah</td>
       <td>Basson</td>
       <td>19</td>
@@ -44,7 +48,7 @@
     </tr>
 
     <tr>
-      <td><img src="/avatars/spiderman.png" alt="Image" height="80px" width="80px"></td>
+      <td><img src="/avatars/spiderman.png" alt="Image" ></td>
       <td>Leah</td>
       <td>Basson</td>
       <td>19</td>
@@ -53,7 +57,7 @@
       <td>Watching Avengers</td>
     </tr>
 <tr>
-    <td><img src="/avatars/black-widow.webp" alt="Image" height="80px" width="80px"></td>
+    <td><img src="/avatars/black-widow.webp" alt="Image"></td>
     <td>Leah</td>
     <td>Basson</td>
     <td>19</td>
@@ -62,7 +66,7 @@
     <td>Sleeping</td>
 </tr>
 <tr>
-    <td><img src="/avatars/hulk-avatar.png" alt="Image" height="80px" width="80px"></td>
+    <td><img src="/avatars/hulk-avatar.png" alt="Image"></td>
     <td>Leah</td>
     <td>Basson</td>
     <td>19</td>
@@ -71,7 +75,7 @@
     <td>Laughing</td>
 </tr>
 <tr>
-    <td><img src="/avatars/thor.jpg" alt="Image" height="80px" width="80px"></td>
+    <td><img src="/avatars/thor.jpg" alt="Image"></td>
     <td>Leah</td>
     <td>Basson</td>
     <td>19</td>
@@ -82,39 +86,46 @@
   </table> <br>
 
   <!--unordered list-->
+  <main class="second-main">
 <h3>Unordered List:</h3>
   <ul>
     <li><p> I have learnt to strengthen and maintain a good and positive mindset. </p></li>
     <li><p> I got a deeper understanding of computer systems and programming languages. </p></li>
     <li><p> I am gaining experience in terms of working with people and working independently and also what methods work for me to achieve my goals. </p></li>
     </ul>
-
+<br>
+<br>
 
     <!--Ordered List-->
-<h3>Ordered List</h3>
+<h3>Ordered List:</h3>
     <ol>
-      <li>Build and maintain a strong and good character.</li>
-      <li>Build on my spiritual relationship.</li>
-      <li>Become an excellent developer by achieveing at least 90% for each module.</li>
-      <li>Get a employed within the software industry.</li>
+      <li><p>Build and maintain a strong and good character.</p></li>
+      <li><p>Build on my spiritual relationship.</p></li>
+      <li><p>Become an excellent developer by achieveing at least 90% for each module.</p></li>
+      <li><p>Get a employed within the software industry.</p></li>
       </ol>
-
+    </main>
 
       <!--Form-->
-      <form action="/submit_register"  method="post">
+      <form class="fill-in" action="/submit_register"  method="post">
         <label for="name"><b>Name:</b></label><br>
         <input type="text" id="name" name="name">
+        <br>
         <br>
         <label for="surname"><b>Surname:</b></label><br>
         <input type="text" id="surname" name="surname">
         <br>
+        <br>
         <label for="dob"><b>Date Of Birth</b></label><br>
         <input type="date" name="dob" id="dob">
+        <br>
         <br>
         <label for="age"><b>Age</b></label><br>
         <input type="number" name="age" id="age">
         <br>
+        <br>
         <label for="gender"><b>Gender:</b></label>
+        <br>
         <br>
     <select id="gender" name="gender">
         <option value="male">Male</option>
@@ -122,18 +133,21 @@
         <option value="other">Other</option>
     </select>
     <br>
+    <br>
     <label for="nationality"><b>Nationality</b></label><br>
     <input type="text" name="nationality" id="nationality">
     <br>
+    <br>
     <label for="ethnicity"><b>Ethnicity</b></label><br>
     <input type="text" name="ethnicity" id="ethnicity">
+    <br>
     <br>
     <label for="year_matriculated"><b>Year Matriculated:</b></label><br>
     <input type="date" id="year_matriculated" name="year_matriculated">
     <br>
     <br>
 
-    <input type="submit" value= "Register">
+    <input class= "btn" type="submit" value= "Register">
     </form>
 
 
